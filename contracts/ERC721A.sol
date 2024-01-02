@@ -36,7 +36,7 @@ interface ERC721A__IERC721Receiver {
 contract ERC721A is IERC721A {
     // Reference type for token approval.
     struct TokenApprovalRef {
-        address value;
+        address    value;
     }
 
     // =============================================================
